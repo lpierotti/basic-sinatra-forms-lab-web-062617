@@ -1,4 +1,6 @@
 # A sample Gemfile
+
+
 source "https://rubygems.org"
 
 # gem "rails"
@@ -10,9 +12,14 @@ gem 'shotgun'
 gem 'pry'
 gem 'require_all'
 
+
+
+
 group :test do
-  gem 'rspec'
-  gem 'capybara'
-  gem 'rack-test'
-  gem 'poltergeist'
+	gem 'capybara'
+gem 'poltergeist'
+gem 'rspec'  
+gem 'rack-test'
+	
 end
+  
